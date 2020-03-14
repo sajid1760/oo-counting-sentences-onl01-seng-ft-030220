@@ -30,7 +30,7 @@ class String
     end
     
     sentarray2.each do |aa|
-      sentarray3 << aa.split("?")
+      sentarray3 << aa
     end
     
     puts sentarray2.inspect
