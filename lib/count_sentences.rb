@@ -21,7 +21,7 @@ class String
     sentarray.each do |aa|
       sentarray2 << aa.split("!")
     end
-    puts sentarray2.inspect
+    
     
     a = 0 
     sentarray2.each do |element|
@@ -33,6 +33,7 @@ class String
       sentarray3 << aa.split("?")
     end
     
+    puts sentarray2.inspect
    
     puts sentarray3.inspect
     puts sentarray3.count
