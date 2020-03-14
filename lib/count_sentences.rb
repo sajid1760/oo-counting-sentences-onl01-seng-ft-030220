@@ -17,7 +17,7 @@ class String
   def count_sentences
     sentarray2 = []
     sentarray3 = []
-    sentarray = self.split(".")
+    sentarray = self.split("." || "!")
     sentarray.each do |aa|
       sentarray2 << aa.split("!")
     end
