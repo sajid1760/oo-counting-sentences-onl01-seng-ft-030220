@@ -19,8 +19,10 @@ class String
     sentarray3 = []
     sentarray = self.split(".")
     sentarray.each do |aa|
-      sentarray2 << aa.split("!").join
+      sentarray2 << aa.split("!")
     end
+    
+    sentarray2.flatten
     
    sentarray2.each do |aa|
       sentarray3 << aa.split("?").join
