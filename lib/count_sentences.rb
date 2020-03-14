@@ -22,6 +22,9 @@ class String
       sentarray2 << aa.split("!")
     end
     
+    sentarray2.each do |aa|
+      sentarray2 << aa.join
+    end
     
     a = 0 
     sentarray2.each do |element|
