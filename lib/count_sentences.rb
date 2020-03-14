@@ -23,6 +23,7 @@ class String
     end
     puts sentarray2.inspect
     
+    a = 0 
     sentarray2.each do |element|
       if (element == "" || element == []) then sentarray2.delete_at(a) end
         a = a + 1
@@ -31,7 +32,7 @@ class String
     sentarray2.each do |aa|
       sentarray3 << aa.split("?")
     end
-    a = 0 
+    
    
     puts sentarray3.inspect
     puts sentarray3.count
