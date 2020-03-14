@@ -22,20 +22,21 @@ class String
       sentarray2 << aa.split("!").join
     end
     
-    
-    a = 0 
-    sentarray2.each do |element|
-      if (element == "" || element == []) then sentarray2.delete_at(a) end
-        a = a + 1
+   sentarray2.each do |aa|
+      sentarray3 << aa.split("?").join
     end
     
-    sentarray2.each do |aa|
-      sentarray3 << aa
-    end
     puts sentarray.inspect
     puts sentarray2.inspect
+    puts sentarray3.inspect
    
-   # puts sentarray3.inspect
+   a = 0 
+    sentarray3.each do |element|
+      if (element == "" || element == []) then sentarray3.delete_at(a) end
+        a = a + 1
+    end
+   
+   
     #puts sentarray3.count
   end
   
