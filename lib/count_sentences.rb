@@ -21,9 +21,6 @@ class String
     sentarray.each do |aa|
       sentarray2 << aa.split("!")
     end
-    if (element == "" || element == []) then sentarray2.delete_at(a) end
-        a = a + 1
-    end
     puts sentarray2.inspect
     sentarray2.each do |aa|
       sentarray3 << aa.split("?")
