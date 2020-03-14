@@ -22,8 +22,8 @@ class String
       sentarray2 << aa.split("!")
     end
     puts sentarray2.inspect
-    sentarray.each do |cc|
-      sentarray << cc.split("?")
+    sentarray.each do |aa|
+      sentarray2 << aa.split("?")
     end
     a = 0 
     sentarray2.each do |element|
