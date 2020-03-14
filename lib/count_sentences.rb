@@ -22,7 +22,7 @@ class String
       sentarray2 << aa.split("!")
     end
     puts sentarray2.inspect
-    sentarray = sentarray2
+    sentarray = sentarray
     sentarray.each do |aa|
       sentarray3 << aa.split("?")
     end
