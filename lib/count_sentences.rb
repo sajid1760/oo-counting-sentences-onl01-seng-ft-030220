@@ -38,7 +38,7 @@ class String
     end
    
    
-    puts sentarray3.count
+    sentarray3.count
     
   end
   
