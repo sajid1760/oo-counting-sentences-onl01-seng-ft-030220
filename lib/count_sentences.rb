@@ -44,4 +44,4 @@ class String
   
 end
 
-"Hello.. What's up? Well!".count_sentences
+#"Hello.. What's up? Well!".count_sentences
