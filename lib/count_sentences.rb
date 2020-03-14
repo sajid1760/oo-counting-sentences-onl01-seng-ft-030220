@@ -19,11 +19,11 @@ class String
     sentarray3 = []
     sentarray = self.split(".")
     sentarray.each do |aa|
-      sentarray2 << aa.split("?")
+      sentarray2 << aa.split("!")
     end
     puts sentarray2.inspect
     sentarray2.each do |bb|
-      sentarray3 << bb.split("!")
+      sentarray3 << bb.split
     end
     a = 0 
     sentarray3.each do |element|
