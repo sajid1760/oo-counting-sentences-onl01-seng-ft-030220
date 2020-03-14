@@ -27,7 +27,7 @@ class String
     end
     a = 0 
     sentarray2.each do |element|
-      if (element == "" || element.empty? || element = []) then sentarray.delete_at(a) end
+      if (element == "" || element.empty? || element = []) then sentarray2.delete_at(a) end
         a = a + 1
     end
     puts sentarray2.inspect
