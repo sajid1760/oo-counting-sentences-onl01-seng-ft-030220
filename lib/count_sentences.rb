@@ -25,7 +25,7 @@ class String
     sentarray2.flatten
     
    sentarray2.each do |aa|
-      sentarray3 << aa.split("?").join
+      sentarray3 << aa.split("?")
     end
     
     puts sentarray.inspect
