@@ -36,4 +36,4 @@ class String
   
 end
 
-"Hello.. What's up? Well.".count_sentences
+"Hel!o.. What's up? Well.".count_sentences
