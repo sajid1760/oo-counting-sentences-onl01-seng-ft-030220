@@ -32,11 +32,11 @@ class String
     sentarray2.each do |aa|
       sentarray3 << aa
     end
-    
+    puts sentarray.inspect
     puts sentarray2.inspect
    
-    puts sentarray3.inspect
-    puts sentarray3.count
+   # puts sentarray3.inspect
+    #puts sentarray3.count
   end
   
 end
