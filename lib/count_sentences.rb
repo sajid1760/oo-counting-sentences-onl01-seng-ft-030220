@@ -17,21 +17,21 @@ class String
   def count_sentences
     sentarray2 = []
     sentarray3 = []
-    sentarray = self.split("." || "!" || "?")
+    sentarray = self.split(".")
     sentarray.each do |aa|
       sentarray2 << aa.split("!")
     end
-    puts sentarray.inspect
+    puts sentarray2.inspect
     sentarray2.each do |bb|
       sentarray3 << bb
     end
     a = 0 
-    sentarray.each do |element|
+    sentarray2.each do |element|
       if (element == "" || element.empty?) then sentarray.delete_at(a) end
         a = a + 1
     end
-    puts sentarray.inspect
-    puts sentarray.count
+    puts sentarray2.inspect
+    puts sentarray2.count
   end
   
 end
