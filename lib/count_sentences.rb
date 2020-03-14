@@ -29,9 +29,7 @@ class String
       sentarray3 << aa.split("?")
     end
     
-    puts sentarray.inspect
-    puts sentarray2.inspect
-    puts sentarray3.inspect
+    sentarray3 = sentarray3.flatten
    
    a = 0 
     sentarray3.each do |element|
@@ -40,7 +38,8 @@ class String
     end
    
    
-    #puts sentarray3.count
+    puts sentarray3.count
+    
   end
   
 end
