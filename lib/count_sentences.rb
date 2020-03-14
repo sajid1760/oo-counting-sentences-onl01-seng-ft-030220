@@ -19,7 +19,7 @@ class String
     sentarray3 = []
     sentarray = self.split(".")
     sentarray.each do |aa|
-      sentarray2 << aa.split("!")
+      sentarray2 = aa.split("!")
     end
     
     
